@@ -8,20 +8,18 @@ public class Ball : MonoBehaviour
     public Rigidbody2D rb;
     private float posx;
     private float posy;
+
     void Start()
+        //Change the launch method to start when a PLAY button is clicked later.
     {
         Launch();
         posx = this.gameObject.transform.position.x;
         posy = this.gameObject.transform.position.y;
     }
-    void Update()
-    {
-        
-    }
 
     private void Launch()
     {
-        rb.velocity = new Vector2(speed * posx, speed * posy -2);
+        rb.velocity = new Vector2(posx, posy - speed);
     }
 
 }
