@@ -1277,6 +1277,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shape 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2386634451520778371, guid: 0dac9a200fe32564595aab59a667bdd5, type: 3}
+      propertyPath: m_TagString
+      value: Shapes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386634451520778374, guid: 0dac9a200fe32564595aab59a667bdd5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dac9a200fe32564595aab59a667bdd5, type: 3}
 --- !u!1001 &3469282870629552504
@@ -1289,6 +1297,10 @@ PrefabInstance:
     - target: {fileID: 3469282869687328722, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
       propertyPath: m_Name
       value: Shape 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469282869687328722, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
+      propertyPath: m_TagString
+      value: Shapes
       objectReference: {fileID: 0}
     - target: {fileID: 3469282869687328723, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
       propertyPath: m_RootOrder
@@ -1349,6 +1361,10 @@ PrefabInstance:
     - target: {fileID: 3469282869687328723, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469282869687328727, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3469282870424199099, guid: 52e15f5b9e78dae409e889f3be934b04, type: 3}
       propertyPath: m_LocalScale.x
@@ -1447,6 +1463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shape 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4338069623991689963, guid: abab47f378247e64aac3cf9fdeda6b84, type: 3}
+      propertyPath: m_TagString
+      value: Shapes
+      objectReference: {fileID: 0}
     - target: {fileID: 4338069623991689964, guid: abab47f378247e64aac3cf9fdeda6b84, type: 3}
       propertyPath: m_Material
       value: 
@@ -1523,6 +1543,14 @@ PrefabInstance:
     - target: {fileID: 4943320791814439193, guid: 0be7580c4f1a16241ad1d66bcea644e1, type: 3}
       propertyPath: m_Name
       value: Shape 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943320791814439193, guid: 0be7580c4f1a16241ad1d66bcea644e1, type: 3}
+      propertyPath: m_TagString
+      value: Shapes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943320791814439196, guid: 0be7580c4f1a16241ad1d66bcea644e1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4943320792245796226, guid: 0be7580c4f1a16241ad1d66bcea644e1, type: 3}
       propertyPath: m_LocalScale.x
