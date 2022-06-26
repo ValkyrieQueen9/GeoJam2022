@@ -10,6 +10,7 @@ public class ShapeMove : MonoBehaviour
     private Collider2D col;
     private GameObject gameObj;
     public float rotationSpeed;
+    public float shapeRadius;
 
     void Start()
     {
