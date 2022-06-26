@@ -8,6 +8,8 @@ public class ShapeMove : MonoBehaviour
     private Vector3 screenPos;
     private float angleOffset;
     private Collider2D col;
+    private GameObject gameObj;
+    public float rotationSpeed;
 
     void Start()
     {
@@ -34,6 +36,7 @@ public class ShapeMove : MonoBehaviour
                 Vector3 vec3 = Input.mousePosition - screenPos;
                 float angle = Mathf.Atan2(vec3.y, vec3.x) * Mathf.Rad2Deg;
                 transform.eulerAngles = new Vector3(0, 0, angle + angleOffset);
+                //transform.Rotate(new Vector3(0, 0, angle + angleOffset) * rotationSpeed * Time.deltaTime);
             }
         
     }
